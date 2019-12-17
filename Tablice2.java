@@ -5,9 +5,9 @@ public class Tablice2 {
     }
     public static int getMax (int[] arrayOfNumbers) {
         int maxValue = 0;
-        for (int i = 0; i < arrayOfNumbers.length; i++) {
-            if (arrayOfNumbers[i] > maxValue) {
-                maxValue = arrayOfNumbers[i];
+        for (int arrayOfNumber : arrayOfNumbers) {
+            if (arrayOfNumber > maxValue) {
+                maxValue = arrayOfNumber;
             }
         }
         return maxValue;
