@@ -5,8 +5,8 @@ public class Tablice4 {
     }
     public static int getSum (int[] arrayOfNumbers) {
         int sum = 0;
-        for (int i = 0; i < arrayOfNumbers.length; i++) {
-            sum += arrayOfNumbers[i];
+        for (int arrayOfNumber : arrayOfNumbers) {
+            sum += arrayOfNumber;
         }
         return sum;
     }
