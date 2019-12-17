@@ -5,9 +5,9 @@ public class Tablice3 {
     }
     public static int getMin (int[] arrayOfNumbers) {
         int minValue = arrayOfNumbers[0];
-        for (int i = 0; i < arrayOfNumbers.length; i++) {
-            if (arrayOfNumbers[i] < minValue) {
-                minValue = arrayOfNumbers[i];
+        for (int arrayOfNumber : arrayOfNumbers) {
+            if (arrayOfNumber < minValue) {
+                minValue = arrayOfNumber;
             }
         }
         return minValue;
